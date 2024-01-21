@@ -1,0 +1,137 @@
+.backGroundImage {
+    background: transparent linear-gradient(180deg, #9d0e0e00 0%, #4f0707 100%) 0% 0% no-repeat padding-box;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 480px;
+    mix-blend-mode: multiply;
+    opacity: 1;
+    background-image: url('/image/top.png');
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+  }
+  
+  .login-signup {
+    position: absolute;
+    text-decoration: none;
+    word-spacing: 15px;
+    right: 20px;
+    top: 20px;
+  }
+  
+  .login-signup a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .createAccount {
+    word-spacing: normal;
+    border: 1px solid white;
+    padding: 10px 10px;
+    border-radius: 5px;
+  }
+  
+  .logo {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    font: normal normal 810 70px/130px Poppins;
+    color: #eb2929;
+    top: 85px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 147px;
+    height: 140px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+  }
+  
+  #myTxt {
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+    font: normal normal 600 34px/40px Poppins;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+  }
+  
+  .search {
+    position: absolute;
+    top: 339px;
+    left: 50%;
+    transform: translateX(-50%);
+    word-spacing: 15px;
+  }
+  
+  .location {
+    height: 40px;
+    width: 100%;
+  }
+  
+  .searchFirst {
+    width: 100%;
+    height: 40px;
+  }
+  
+  .footer-pannel {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  
+  .footer {
+    padding-top: 30px;
+    padding-left: 5%;
+    font: normal normal bold 24px/36px Poppins;
+    color: #192f60;
+    opacity: 1;
+  }
+  
+  #txtMsz {
+    font: normal normal normal 16px/24px Poppins;
+    letter-spacing: 0px;
+    color: #8c96ab;
+    opacity: 1;
+  }
+  
+  .boxes,
+  .boxesNext {
+    padding-top: 30px;
+    padding-left: 5%;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .card {
+    max-width: 360px;
+    width: 100%;
+  }
+  #boxFirst{
+    width: 310px;
+  }
+
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .search,
+    .boxes,
+    .boxesNext,
+    .footer {
+      text-align: center;
+    }
+  
+    .login-signup {
+      right: 10px;
+    }
+    .search {
+        display: none;
+    }
+  }
+  
